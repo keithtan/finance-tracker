@@ -1,0 +1,8 @@
+<%= form_for(@stock) do |f| %>
+<div class="field">
+    <%= f.label :value %><br>
+    <%= f.number_field :value %>
+    <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
